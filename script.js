@@ -15,7 +15,7 @@
 
     const parent = document.querySelector('#parent');
 
-    parent.innerHTML = '<span id="1st" style = "background-color: orange">' + "&nbsp;" + x + "&nbsp;" + '</span>' + '+' + '<span id="2nd">' + "&nbsp;" + y + "&nbsp;" + '</span>' + ' = ' + '<span id="block">' + "?" + '</span>' + '<input  id = "result" style="display: none ">';
+    parent.innerHTML = '<span id="1st" style = "background-color: orange">' + "&nbsp;" + x + "&nbsp;" + '</span>' + '+' + '<span id="2nd">' + "&nbsp;" + y + "&nbsp;" + '</span>' + ' = ' + '<span id="block">' + "?" + '</span>' + '<input  tabindex="0" id = "result" style="display: none ">';
 
     
 // Рисуем canvas
